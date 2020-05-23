@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 22:40+0200\n"
-"PO-Revision-Date: 2019-11-05 00:38+0000\n"
-"Last-Translator: Ramiro Morales\n"
+"PO-Revision-Date: 2020-05-23 08:35+0200\n"
+"Last-Translator: David Planella <david.planella@ubuntu.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/django/django/language/"
 "ca/)\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
 
 msgid "Afrikaans"
 msgstr "Afrikans"
@@ -286,7 +287,7 @@ msgid "Urdu"
 msgstr "urdu"
 
 msgid "Uzbek"
-msgstr ""
+msgstr "Uzbek"
 
 msgid "Vietnamese"
 msgstr "vietnamita"
@@ -310,13 +311,13 @@ msgid "Syndication"
 msgstr "Sindicació"
 
 msgid "That page number is not an integer"
-msgstr "Aquesta plana no és un sencer"
+msgstr "El número de pàgina no és un enter"
 
 msgid "That page number is less than 1"
-msgstr "El nombre de plana és inferior a 1"
+msgstr "El número de pàgina és inferior a 1"
 
 msgid "That page contains no results"
-msgstr "La plana no conté cap resultat"
+msgstr "La pàgina no conté cap resultat"
 
 msgid "Enter a valid value."
 msgstr "Introduïu un valor vàlid."
@@ -334,14 +335,14 @@ msgstr "Introdueix una adreça de correu electrònic vàlida"
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
-"Introduïu un 'slug' vàlid, consistent en lletres, números, guions o guions "
+"Introduïu un «slug» vàlid, consistent en lletres, números, guions o guions "
 "baixos."
 
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
-"Introduïu un 'slug' vàlid format per lletres Unicode, números, guions o "
+"Introduïu un «slug» vàlid format per lletres Unicode, números, guions o "
 "guions baixos."
 
 msgid "Enter a valid IPv4 address."
@@ -428,8 +429,8 @@ msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
 msgstr ""
-"L'extensió d'arxiu  '%(extension)s' no està permesa. Les extensions permeses "
-"són: '%(allowed_extensions)s'."
+"L'extensió de fitxer «%(extension)s» no està permesa. Les extensions "
+"permeses són: «%(allowed_extensions)s»."
 
 msgid "Null characters are not allowed."
 msgstr "Caràcters nul no estan permesos."
@@ -535,7 +536,7 @@ msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
 "uuuuuu] format."
 msgstr ""
-"'El valor %(value)s' té un format invàlid. Ha d'estar en el format [DD] [HH:"
+"El valor «%(value)s» no té un format vàlid. Ha d'estar en el format [DD] [HH:"
 "[MM:]]ss[.uuuuuu] ."
 
 msgid "Duration"
@@ -545,7 +546,7 @@ msgid "Email address"
 msgstr "Adreça de correu electrònic"
 
 msgid "File path"
-msgstr "Ruta del fitxer"
+msgstr "Camí del fitxer"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
@@ -626,7 +627,7 @@ msgid "Universally unique identifier"
 msgstr "Identificador únic universal"
 
 msgid "File"
-msgstr "Arxiu"
+msgstr "Fitxer"
 
 msgid "Image"
 msgstr "Imatge"
@@ -639,7 +640,7 @@ msgid "Foreign Key (type determined by related field)"
 msgstr "Clau forana (tipus determinat pel camp relacionat)"
 
 msgid "One-to-one relationship"
-msgstr "Inter-relació un-a-un"
+msgstr "Relació un-a-un"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
@@ -650,7 +651,7 @@ msgid "%(from)s-%(to)s relationships"
 msgstr "relacions %(from)s-%(to)s "
 
 msgid "Many-to-many relationship"
-msgstr "Inter-relació molts-a-molts"
+msgstr "Relació molts-a-molts"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the
@@ -674,7 +675,7 @@ msgid "Enter a valid date/time."
 msgstr "Introduïu una data/hora vàlides."
 
 msgid "Enter a valid duration."
-msgstr "Introdueixi una durada vàlida."
+msgstr "Introduïu una durada vàlida."
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
@@ -695,23 +696,23 @@ msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
 msgstr[0] ""
-"Aquest nom d'arxiu hauria de tenir com a molt %(max)d caràcter (en té "
+"Assegureu-vos que el nom de fitxer tingui com a molt %(max)d caràcter (en té "
 "%(length)d)."
 msgstr[1] ""
-"Aquest nom d'arxiu hauria de tenir com a molt %(max)d caràcters (en té "
-"%(length)d)."
+"Assegureu-vos que el nom de fitxer tingui com a molt %(max)d caràcters (en "
+"té %(length)d)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
 msgstr ""
-"Si us plau, envieu un fitxer o marqueu la casella de selecció \"netejar\", "
-"no ambdós."
+"Envieu un fitxer o marqueu la casella de selecció de netejar, però no les "
+"dues accions a la vegada."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
 msgstr ""
-"Carregueu una imatge vàlida. El fitxer que heu carregat no era una imatge o "
-"estava corrupte."
+"Pujeu una imatge vàlida. El fitxer que heu pujat no era una imatge o estava "
+"corrupte."
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
@@ -724,7 +725,7 @@ msgid "Enter a complete value."
 msgstr "Introduïu un valor complet."
 
 msgid "Enter a valid UUID."
-msgstr "Intrudueixi un UUID vàlid."
+msgstr "Introduïu un UUID vàlid."
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
@@ -740,41 +741,40 @@ msgstr "Falten dades de ManagementForm o s'ha manipulat"
 #, python-format
 msgid "Please submit %d or fewer forms."
 msgid_plural "Please submit %d or fewer forms."
-msgstr[0] "Sisplau envieu com a molt %d formulari."
-msgstr[1] "Sisplau envieu com a molt %d formularis."
+msgstr[0] "Envieu %d formulari com a màxim."
+msgstr[1] "Envieu %d formularis com a màxim."
 
 #, python-format
 msgid "Please submit %d or more forms."
 msgid_plural "Please submit %d or more forms."
-msgstr[0] "Sisplau envieu com a mínim %d formulari."
-msgstr[1] "Sisplau envieu com a mínim %d formularis."
+msgstr[0] "Envieu %d formulari com a mínim."
+msgstr[1] "Envieu %d formularis com a mínim."
 
 msgid "Order"
 msgstr "Ordre"
 
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Suprimeix"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "Si us plau, corregiu la dada duplicada per a %(field)s."
+msgstr "Corregiu les dades duplicades de a %(field)s."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
 msgstr ""
-"Si us plau, corregiu la dada duplicada per a %(field)s, la qual ha de ser "
-"única."
+"Corregiu les dades duplicades de %(field)s, les quals han de ser úniques."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"Si us plau, corregiu la dada duplicada per a %(field_name)s, la qual ha de "
-"ser única per a %(lookup)s en %(date_field)s."
+"Corregiu les dades duplicades de %(field_name)s, les quals han de ser "
+"úniques per a %(lookup)s en %(date_field)s."
 
 msgid "Please correct the duplicate values below."
-msgstr "Si us plau, corregiu els valors duplicats a sota."
+msgstr "Corregiu els valors duplicats de sota."
 
 msgid "The inline value did not match the parent instance."
 msgstr "El valor en línia no coincideix la instancia mare ."
@@ -796,13 +796,13 @@ msgstr ""
 "%(current_timezone)s; potser és ambigua o no existeix."
 
 msgid "Clear"
-msgstr "Netejar"
+msgstr "Neteja"
 
 msgid "Currently"
 msgstr "Actualment"
 
 msgid "Change"
-msgstr "Modificar"
+msgstr "Modifica"
 
 msgid "Unknown"
 msgstr "Desconegut"
@@ -1137,7 +1137,7 @@ msgid "Forbidden"
 msgstr "Prohibit"
 
 msgid "CSRF verification failed. Request aborted."
-msgstr "La verificació de CSRF ha fallat. Petició abortada."
+msgstr "La verificació de CSRF ha fallat. S'ha cancel·lat la sol·licitud"
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
@@ -1145,19 +1145,19 @@ msgid ""
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
-"Estàs veient aquest missatge perquè aquest lloc HTTPS requereix que el teu "
-"navegador enviï una capçalera 'Referer', i no n'ha arribada cap. Aquesta "
-"capçalera es requereix per motius de seguretat, per garantir que el teu "
-"navegador no està sent infiltrat per tercers."
+"Esteu veient aquest missatge perquè aquest lloc HTTPS requereix que el "
+"navegador enviï una capçalera «Referer», i no n'ha rebut cap. Aquesta "
+"capçalera es requereix per motius de seguretat, per garantir que algú s'hagi "
+"infiltrat en el navegador."
 
 msgid ""
 "If you have configured your browser to disable “Referer” headers, please re-"
 "enable them, at least for this site, or for HTTPS connections, or for “same-"
 "origin” requests."
 msgstr ""
-"Si has configurat el teu navegador per deshabilitar capçaleres 'Referer', "
-"sisplau torna-les a habilitar, com a mínim per a aquest lloc, o per a "
-"connexions HTTPs, o per a peticions amb el mateix orígen."
+"Si heu configurat el navegador per inhabilitar les capçaleres «Referer», "
+"torneu-les a habilitar com a mínim per a aquest lloc, o bé per a connexions "
+"HTTPs, o per a sol·licituds amb el mateix origen."
 
 msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
@@ -1230,7 +1230,7 @@ msgid "No %(verbose_name)s found matching the query"
 msgstr "No s'ha trobat sap %(verbose_name)s que coincideixi amb la petició"
 
 msgid "Page is not “last”, nor can it be converted to an int."
-msgstr "La pàgina no és 'last', ni es pot convertir en un enter"
+msgstr "La pàgina no és «last», ni es pot convertir en un enter."
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
@@ -1279,19 +1279,19 @@ msgstr ""
 "direccions URLs configurades."
 
 msgid "Django Documentation"
-msgstr "Documentació de Django"
+msgstr "Documentació del Django"
 
 msgid "Topics, references, &amp; how-to’s"
 msgstr "Temes, referències, &amp; Com es fa"
 
 msgid "Tutorial: A Polling App"
-msgstr "Programa d'aprenentatge: Una aplicació enquesta"
+msgstr "Programa d'aprenentatge: una aplicació d'enquesta"
 
 msgid "Get started with Django"
-msgstr "Primers passos amb Django"
+msgstr "Primers passos amb el Django"
 
 msgid "Django Community"
-msgstr "Comunitat Django"
+msgstr "Comunitat del Django"
 
 msgid "Connect, get help, or contribute"
-msgstr "Connecta, obté ajuda, o col·labora"
+msgstr "Connecteu-vos, obteniu ajuda, o col·laboreu"
