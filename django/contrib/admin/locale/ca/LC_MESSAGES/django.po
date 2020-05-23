@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-08 17:27+0200\n"
-"PO-Revision-Date: 2019-11-03 20:46+0000\n"
-"Last-Translator: Gil Obradors Via <gil.obradors@gmail.com>\n"
+"PO-Revision-Date: 2020-05-23 09:04+0200\n"
+"Last-Translator: David Planella <david.planella@ubuntu.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/django/django/language/"
 "ca/)\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
 
 #, python-format
 msgid "Successfully deleted %(count)d %(items)s."
@@ -80,24 +81,24 @@ msgid ""
 "Please enter the correct %(username)s and password for a staff account. Note "
 "that both fields may be case-sensitive."
 msgstr ""
-"Si us plau, introduïu un %(username)s i contrasenya correcta per un compte "
-"de personal. Observeu que ambdós camps són sensibles a majúscules."
+"Introduïu un %(username)s i contrasenya correcta per un compte de personal. "
+"Observeu que ambdós camps són sensibles a majúscules."
 
 msgid "Action:"
 msgstr "Acció:"
 
 #, python-format
 msgid "Add another %(verbose_name)s"
-msgstr "Afegir un/a altre/a %(verbose_name)s."
+msgstr "Afegeix un/a altre/a %(verbose_name)s"
 
 msgid "Remove"
-msgstr "Eliminar"
+msgstr "Suprimeix"
 
 msgid "Addition"
-msgstr "Afegeix"
+msgstr "Addició"
 
 msgid "Change"
-msgstr "Modificar"
+msgstr "Modifica"
 
 msgid "Deletion"
 msgstr "Supressió"
@@ -141,10 +142,10 @@ msgstr "Modificat \"%(object)s\" - %(changes)s"
 
 #, python-format
 msgid "Deleted “%(object)s.”"
-msgstr "Eliminat \"%(object)s.\""
+msgstr "S'ha suprimit «%(object)s.»"
 
 msgid "LogEntry Object"
-msgstr "Objecte entrada del registre"
+msgstr "Objecte LogEntry"
 
 #, python-brace-format
 msgid "Added {name} “{object}”."
@@ -238,11 +239,11 @@ msgstr "%(name)s amb ID \"%(key)s\" no existeix. Potser va ser eliminat?"
 
 #, python-format
 msgid "Add %s"
-msgstr "Afegir %s"
+msgstr "Afegeix %s"
 
 #, python-format
 msgid "Change %s"
-msgstr "Modificar %s"
+msgstr "Modifica %s"
 
 #, python-format
 msgid "View %s"
@@ -269,7 +270,7 @@ msgstr "0 de %(cnt)s seleccionats"
 
 #, python-format
 msgid "Change history: %s"
-msgstr "Modificar històric: %s"
+msgstr "Historial de canvis: %s"
 
 #. Translators: Model verbose name and instance representation,
 #. suitable to be an item in a list.
@@ -286,26 +287,26 @@ msgstr ""
 "objectes relacionats protegits: %(related_objects)s"
 
 msgid "Django site admin"
-msgstr "Lloc administratiu de Django"
+msgstr "Lloc administratiu del Django"
 
 msgid "Django administration"
-msgstr "Administració de Django"
+msgstr "Administració del Django"
 
 msgid "Site administration"
 msgstr "Administració del lloc"
 
 msgid "Log in"
-msgstr "Iniciar sessió"
+msgstr "Inicieu la sessió"
 
 #, python-format
 msgid "%(app)s administration"
 msgstr "Administració de %(app)s"
 
 msgid "Page not found"
-msgstr "No s'ha pogut trobar la pàgina"
+msgstr "No trobat la pàgina"
 
 msgid "We’re sorry, but the requested page could not be found."
-msgstr "Ho sentim, però no s'ha pogut trobar la pàgina sol·licitada"
+msgstr "No s'ha trobart la pàgina sol·licitada."
 
 msgid "Home"
 msgstr "Inici"
@@ -328,10 +329,10 @@ msgstr ""
 "paciència."
 
 msgid "Run the selected action"
-msgstr "Executar l'acció seleccionada"
+msgstr "Executa l'acció seleccionada"
 
 msgid "Go"
-msgstr "Anar"
+msgstr "Vés"
 
 msgid "Click here to select the objects across all pages"
 msgstr "Feu clic aquí per seleccionar els objectes a totes les pàgines"
@@ -341,7 +342,7 @@ msgid "Select all %(total_count)s %(module_name)s"
 msgstr "Seleccioneu tots %(total_count)s %(module_name)s"
 
 msgid "Clear selection"
-msgstr "Netejar la selecció"
+msgstr "Neteja la selecció"
 
 msgid ""
 "First, enter a username and password. Then, you’ll be able to edit more user "
@@ -354,39 +355,40 @@ msgid "Enter a username and password."
 msgstr "Introduïu un nom d'usuari i contrasenya."
 
 msgid "Change password"
-msgstr "Canviar contrasenya"
+msgstr "Canvia la contrasenya"
 
 msgid "Please correct the error below."
-msgstr "Si us plau, corregeix l'error de sota"
+msgstr "Corregiu l'error de sota."
 
 msgid "Please correct the errors below."
 msgstr "Si us plau, corregiu els errors mostrats a sota."
 
 #, python-format
 msgid "Enter a new password for the user <strong>%(username)s</strong>."
-msgstr "Introduïu una contrasenya per l'usuari <strong>%(username)s</strong>"
+msgstr ""
+"Introduïu una contrasenya nova per a l'usuari <strong>%(username)s</strong>."
 
 msgid "Welcome,"
-msgstr "Benvingut/da,"
+msgstr "Us donem la benvinguda,"
 
 msgid "View site"
-msgstr "Veure lloc"
+msgstr "Mostra el lloc"
 
 msgid "Documentation"
 msgstr "Documentació"
 
 msgid "Log out"
-msgstr "Finalitzar sessió"
+msgstr "Surt de la sessió"
 
 #, python-format
 msgid "Add %(name)s"
-msgstr "Afegir %(name)s"
+msgstr "Afegeix %(name)s"
 
 msgid "History"
-msgstr "Històric"
+msgstr "Historial"
 
 msgid "View on site"
-msgstr "Veure al lloc"
+msgstr "Mostra al lloc"
 
 msgid "Filter"
 msgstr "Filtre"
@@ -402,7 +404,7 @@ msgid "Toggle sorting"
 msgstr "Commutar ordenació"
 
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Suprimeix"
 
 #, python-format
 msgid ""
@@ -437,7 +439,7 @@ msgid "Yes, I’m sure"
 msgstr "Sí, n'estic segur"
 
 msgid "No, take me back"
-msgstr "No, torna endarrere"
+msgstr "No, torna enrere"
 
 msgid "Delete multiple objects"
 msgstr "Eliminar múltiples objectes"
@@ -476,7 +478,7 @@ msgstr "Eliminar?"
 
 #, python-format
 msgid " By %(filter_title)s "
-msgstr "Per %(filter_title)s "
+msgstr " Per %(filter_title)s "
 
 msgid "Summary"
 msgstr "Resum"
@@ -486,10 +488,10 @@ msgid "Models in the %(name)s application"
 msgstr "Models en l'aplicació %(name)s"
 
 msgid "Add"
-msgstr "Afegir"
+msgstr "Afegeix"
 
 msgid "You don’t have permission to view or edit anything."
-msgstr "No teniu permisos per veure o editar"
+msgstr "No teniu permisos per veure o editar."
 
 msgid "Recent actions"
 msgstr "Accions recents"
@@ -540,13 +542,13 @@ msgstr ""
 "utilitzant aquest lloc administratiu."
 
 msgid "Show all"
-msgstr "Mostrar tots"
+msgstr "Mostra-ho tot"
 
 msgid "Save"
-msgstr "Desar"
+msgstr "Desa"
 
 msgid "Popup closing…"
-msgstr "Tancant finestra emergent..."
+msgstr "S'està tancant finestra emergent..."
 
 msgid "Search"
 msgstr "Cerca"
@@ -609,7 +611,7 @@ msgstr ""
 "l'heu escrita correctament."
 
 msgid "Change my password"
-msgstr "Canviar la meva contrasenya:"
+msgstr "Canvia la meva contrasenya"
 
 msgid "Password reset"
 msgstr "Restablir contrasenya"
